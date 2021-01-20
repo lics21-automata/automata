@@ -1,0 +1,11 @@
+chapter LICS21
+
+session LICS21 = HOL +
+  theories
+    Computation
+    Preliminaries
+    Sufficient
+    Example_Sufficient
+    Necessary
+    Example_Necessary
+    Undecidable
