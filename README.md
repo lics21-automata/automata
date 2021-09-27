@@ -12,13 +12,13 @@
 
 The Isabelle sources are included in a separate directory called `thys`.
 The theories can be studies by opening them in Isabelle/jEdit.
-The latest version Isabelle2020 can be downloaded from
+The latest version Isabelle2021 can be downloaded from
 
-https://isabelle.in.tum.de/website-Isabelle2020/
+https://isabelle.in.tum.de/
 
 and installed following the standard instructions from
 
-https://isabelle.in.tum.de/website-Isabelle2020/installation.html
+https://isabelle.in.tum.de/installation.html
 
 ## Mapping Results in the Paper to the Formalization
 
