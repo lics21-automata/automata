@@ -6,7 +6,7 @@
 
 `thys/` contains the formalization of the paper in Isabelle (open a theory source file in Isabelle/jEdit).
 
-`LICS_2021.pdf` is the paper submitted to LICS 2021.
+`LICS_2021.pdf` is the paper accepted LICS 2021.
 
 ## Formalization in Isabelle
 
