@@ -11,7 +11,7 @@
 ## Formalization in Isabelle
 
 The Isabelle sources are included in a separate directory called `thys`.
-The theories can be studies by opening them in Isabelle/jEdit.
+The theories can be studied by opening them in Isabelle/jEdit.
 The latest version Isabelle2021 can be downloaded from
 
 https://isabelle.in.tum.de/
