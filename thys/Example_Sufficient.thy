@@ -430,14 +430,9 @@ proof -
     by (auto simp: active_def elim: computation.cases elim!: delta.cases)
   have upd_qs: "upd_qs a [b, a, b] {(q1, 0), (q2, 1)} = {(q0, 3)}"
     using active_q0_b_dest
-    apply (auto simp add: upd_qs_def elim!: delta.cases intro: delta.intros act_qf)
-      apply (metis One_nat_def diff_self_eq_0 drop0 drop_Suc_Cons le_SucE le_zero_eq
+    by (auto simp add: upd_qs_def elim!: delta.cases intro: delta.intros act_qf)
+       (metis One_nat_def diff_self_eq_0 drop0 drop_Suc_Cons le_SucE le_zero_eq
         list.distinct(1) list.sel(3) numeral_3_eq_3 take_Cons')
-     apply (metis diff_is_0_eq' drop_eq_Nil drop_take dual_order.antisym length_Cons list.size(3)
-        numeral_3_eq_3 order_refl take_eq_Nil)
-    apply (metis One_nat_def Suc_diff_le diff_is_0_eq' le_SucE list.distinct(1) list.sel(3)
-        numeral_3_eq_3 take_Cons')
-    done
   have drop_qs: "drop_qs 3 {(q0, 3)} = {(q0, 0)}"
     by (auto simp add: drop_qs_def)
   show "tdfa_step (STATE ([b, a, b], {(q1, 0), (q2, 1)})) (Symb a, Blank) =
